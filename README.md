@@ -1,3 +1,6 @@
+### Fork notes
+Add Dockerfile-no-tex for building image without embedded tex. Then you can mount your own portable tex from host to /usr/local/texlive, and all TEX package management will be at host, you don't need to rebuild image for every new TEX package
+
 <h1 align="center">
   <br>
   <a href="https://www.overleaf.com"><img src="doc/logo.png" alt="Overleaf" width="300"></a>
